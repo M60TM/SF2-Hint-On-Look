@@ -1,0 +1,20 @@
+"Phrases"
+{
+	"SF2 Hint Flash Stun"
+	{
+		"en"	"Stun the Boss with your FLASHLIGHT!"
+		"ko"	"손전등으로 보스를 기절시키세요!"
+	}
+
+	"SF2 Hint Hit Stun"
+	{
+		"en"	"Stun the Boss with your WEAPON!"
+		"ko"	"무기로 보스를 기절시키세요!"
+	}
+
+	"SF2 Hint Static on Look"
+	{
+		"en"	"Don't look at IT!"
+		"ko"	"보스를 보지 마세요!"
+	}
+}
