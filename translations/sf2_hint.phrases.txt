@@ -2,19 +2,37 @@
 {
 	"SF2 Hint Flash Stun"
 	{
-		"en"	"Stun the Boss with your FLASHLIGHT!"
-		"ko"	"손전등으로 보스를 기절시키세요!"
+		"en"		"You can stun the Boss with FLASHLIGHT. But Wait."
+		"ko"		"손전등으로 보스를 기절시킬 수 있습니다. 하지만 기다리세요."
 	}
-
 	"SF2 Hint Hit Stun"
 	{
-		"en"	"Stun the Boss with your WEAPON!"
-		"ko"	"무기로 보스를 기절시키세요!"
+		"en"		"You can stun the Boss with WEAPON. But Wait."
+		"ko"		"무기로 보스를 기절시킬 수 있습니다. 하지만 기다리세요."
 	}
-
+	"SF2 Hint Can Flash Stun"
+	{
+		"en"		"Stun the Boss with your FLASHLIGHT!"
+		"ko"		"손전등으로 보스를 기절시키세요!"
+	}
+	"SF2 Hint Can Hit Stun"
+	{
+		"en"		"Stun the Boss with your WEAPON!"
+		"ko"		"무기로 보스를 기절시키세요!"
+	}
+	"SF2 Hint Flash Kill"
+	{
+		"en"		"Kill the Boss with your FLASHLIGHT!"
+		"ko"		"손전등으로 보스를 죽이세요!"
+	}
+	"SF2 Hint Hit Kill"
+	{
+		"en"		"Kill the Boss with your WEAPON!"
+		"ko"		"무기로 보스를 죽이세요!"
+	}
 	"SF2 Hint Static on Look"
 	{
-		"en"	"Don't look at IT!"
-		"ko"	"보스를 보지 마세요!"
+		"en"		"Don't look at IT!"
+		"ko"		"보스를 보지 마세요!"
 	}
 }
