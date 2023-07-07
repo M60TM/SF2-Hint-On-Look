@@ -2,7 +2,7 @@
 
 # plugin names, relative to `scripting/`
 plugins = [
-	'sf2_hint_on_look.sp',
+	'sf2_hint_on_look_public.sp',
 ]
 
 # files to copy to builddir, relative to root

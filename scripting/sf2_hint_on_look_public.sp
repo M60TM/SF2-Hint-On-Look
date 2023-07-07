@@ -6,9 +6,20 @@
 #pragma semicolon 1
 #pragma newdecls required
 
+// TODO: MAKE NATIVE
+static bool g_NpcHasDisappearOnStun[MAX_BOSSES] = { false, ... };
+
 public void OnPluginStart()
 {
 	LoadTranslations("sf2_hint.phrases");
+}
+
+public void SF2_OnBossAdded(int bossIndex)
+{
+	char profile[SF2_MAX_PROFILE_NAME_LENGTH];
+	SF2_GetBossName(bossIndex, profile, sizeof(profile));
+	
+	g_NpcHasDisappearOnStun[bossIndex] = view_as<bool>(SF2_GetBossProfileNum(profile, "disappear_on_stun", 0));
 }
 
 public void SF2_OnClientLooksAtBoss(int client, int bossIndex)
@@ -20,7 +31,7 @@ public void SF2_OnClientLooksAtBoss(int client, int bossIndex)
 	{
 		if ((SF2_GetBossState(bossIndex) == STATE_CHASE || SF2_GetBossState(bossIndex) == STATE_ALERT))
 		{
-			if (!SF2_CanBossDisappearOnStun(bossIndex))
+			if (!g_NpcHasDisappearOnStun[bossIndex])
 			{
 				if (SF2_GetBossNextStunTime(bossIndex) > GetGameTime())
 				{
