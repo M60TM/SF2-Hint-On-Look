@@ -1,6 +1,7 @@
 #include <sourcemod>
 #include <tf2_stocks>
 #include <sdkhooks>
+#include <morecolors>
 #include <sf2>
 
 #pragma semicolon 1
